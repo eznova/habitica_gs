@@ -1,6 +1,6 @@
 function scheduleToDos() {
   var habId = "#userID#";
-  var habToken = "6d739cbb-42cc-47fb-b822-0e8d34392cb2";
+  var habToken = "#userToken#";
  
   var now = new Date();
   var events = CalendarApp.getCalendarsByName("e.znova")[0].getEventsForDay(now);
